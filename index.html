@@ -3,63 +3,79 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mi portafolio</title>
-        <meta name="description" content="Portafolio de proyectos de desarrollo web y diseño gráfico.">
-        <meta property="og:title" content="Portafolio de gabo">    
-        <meta property="og:description" content="Portafolio de proyectos de desarrollo web y diseño gráfico.">
+        <title>html</title>
+        <meta name="description" content="html">
+        <meta property="og:title" content="html">    
+        <meta property="og:description" content="html">
+        <link rel="stylesheet" href="styles.css">
     </head>
 
 <body>
     <header>
-        <h1>Bienvenido a mi portafolio!</h1>
-        <p>Aprendiz</p>
-    </header>
+        <h1>Mi sitio</h1>
 
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <main>
 
-        <section class="sobremi">
-            <h2>Sobre mi</h2>
-            <p>Hola, soy un estudiante del sena, del programa ADSO en el cual estoy haciendo un curso de tecnologo y en poco tiempo emepzare mis pasantias</p>
+        <section class="galeria">
 
-        <div class="habilidades">
-            <h2>Mis habilidades:</h2>
-            <p>HTML, CSS, JavaScript, Python, SQL, Git, diseño gráfico, comunicación efectiva, trabajo en equipo</p>
-        </div>
+            <article class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Proyecto 1">
+                <h2>Proyecto 1</h2>
+                <p>$100.000</p>
+                <button>Ver más</button>
+            </article>
 
-        <div class="proyectos">
-            <h2>Mis proyectos:</h2>
-            <ul>
-                <li><a href="#">Proyecto 1</a></li>
-                <li><a href="#">Proyecto 2</a></li>
-                <li><a href="#">Proyecto 3</a></li>
-            </ul>
-            <img src="/frontend/assets/img/image.png" alt="Imagen de proyecto">
-        </div>
+            <article class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Proyecto 2">
+                <h2>Proyecto 2</h2>
+                <p>$120.000</p>
+                <button>Ver más</button>
+            </article>
 
-        <div class="contacto">
-            <form>  
-                <h2>Contactame</h2>
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+            <article class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Proyecto 3">
+                <h2>Proyecto 3</h2>
+                <p>$150.000</p>
+                <button>Ver más</button>
+            </article>
 
-                <label for="telefono">Telefono:</label>
-                <input type="tel" id="telefono" name="telefono" required>
+            <article class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Proyecto 4">
+                <h2>Proyecto 4</h2>
+                <p>$180.000</p>
+                <button>Ver más</button>
+            </article>
 
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" required></textarea>
+            <article class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Proyecto 5">
+                <h2>Proyecto 5</h2>
+                <p>$200.000</p>
+                <button>Ver más</button>
+            </article>
 
-                <button aria-label="Enviar">Enviar</button>
-            </form>
-        </div>
+            <article class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Proyecto 6">
+                <h2>Proyecto 6</h2>
+                <p>$250.000</p>
+                <button>Ver más</button>
+            </article>
+
         </section>
+
     </main>
 
     <footer>
-        <p>&copy; 2024 Portafolio de gabo. Todos los derechos reservados.</p>
+        <article class="copy"> 
+        <p>&copy; 2026 Mi sitio. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
